@@ -1,5 +1,11 @@
+permissions:
+  contents: read
+  checks: write
+  pull-requests: write
+  actions: read
+  security-events: write
+  
 name: CI
-
    on:
      push:
        branches: [ "main" ]
